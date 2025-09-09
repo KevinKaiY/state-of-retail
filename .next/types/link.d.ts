@@ -31,12 +31,12 @@ declare namespace __next_route_internal_types__ {
   type StaticRoutes = 
     | `/`
     | `/about`
+    | `/admin`
     | `/articles`
     | `/case-studies`
-    | `/admin`
+    | `/api/subscribe`
     | `/classes`
     | `/contact`
-    | `/api/subscribe`
     | `/resources`
     | `/admin`
   type DynamicRoutes<T extends string = string> = 

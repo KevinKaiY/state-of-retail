@@ -11,5 +11,18 @@ const nextConfig = {
       },
     ];
   },
+  async headers() {
+    return [
+      {
+        source: '/admin',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'text/html',
+          },
+        ],
+      },
+    ];
+  },
 };
 export default nextConfig;

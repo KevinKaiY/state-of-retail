@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
+site_url: https://fanciful-syrniki-b62a32.netlify.app
+
 media_folder: "public/uploads"
 public_folder: "/uploads"
 
